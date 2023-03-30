@@ -6,15 +6,27 @@ table{
     margin-right: auto;
     
 }
-button{
-    background-color: dimgray;
-    color: white;
-    padding: 15px;
-    font-size: large;
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: black; /* blue button */
+  color: white;
+  font-size: 16px;
+ animation-name: pulse;
+  animation-duration: 1s;
+  animation-iteration-count: 3;
+  
 }
-button:hover{
-    color: black;
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+button:hover
+{
     background-color: white;
+    color: black;
 }
 h1{
     text-align: center;
