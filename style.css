@@ -1,0 +1,34 @@
+body{
+    background-color: #F4DEB5;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+button{
+    background-color: dimgray;
+    color: white;
+    padding: 15px;
+    font-size: large;
+}
+button:hover{
+    color: black;
+    background-color: white;
+}
+h1{
+    text-align: center;
+}
+p{
+    font-size: larger;
+}
+div.felsorol{
+    width: 500px;
+}
+li{
+    font-size: larger;
+}
+img:hover{
+    transform: scale(1.5);
+    border: black 2px solid;
+}

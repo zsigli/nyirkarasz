@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elérhetóség</title>
+    <link rel="shortcut icon" href="cimer.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="quiz.js"></script>
+</head>
+<body>
+    <header>
+        <table>
+            <tr>
+               <td> <img height="50px" src="cimer.png" alt="" >
+                <td><p>Nyírkarász</p></td>
+            </td>
+    
+                <td><button onclick="document.location='index.html'">Kezdölap</button></td>
+                <td><button onclick="document.location='latnivalok.html'">Látnivalok</button></td>
+                <td><button onclick="document.location='elerhetoseg.html'">Elérhetőség</button></td>
+            </tr>
+        </table>
+    </header>
+    <div style="width: 100%; display: table;">
+        <div style="display: table-row; ">
+            <div style="width: 50%; display: table-cell; ">
+<H1>Elérhetőség</H1>  
+<ul>
+    <li><strong>Cím:</strong>4544 Nyírkarász, Fő út 21</li>
+    <li><strong>Telefon:</strong> 06-45/61
+    </li>
+    <li><strong>Fax:</strong>06-45</li>
+    <li><strong>E-mail:
+
+    </strong>info@ny
+<li><strong>Honlap:</strong> www.nyirkarasz.hu</li>
+<li><strong>Polgármester: </strong>Szalmási József</li>
+<li><strong>Fogadó ideje:</strong>hétfő 08.00-12.00</li>
+</li>
+</ul>
+          </div>
+            <div style="display: table-cell; "> 
+                <h1>Quiz</h1>
+                
+            
+                <form>
+                    <h2>Kérdés 1:</h2>
+                    <p>Nyírkarász Polgármestere?</p>
+                    <input type="radio" name="q1" value="a"> Orbán Viktor<br>
+                    <input type="radio" name="q1" value="b"> Szalmási József<br>
+                    <input type="radio" name="q1" value="c"> Gyurcsány Ferenc<br>
+            
+                    <h2>Kérdés 2:</h2>
+                    <p>Nyírkarász leghíresebb Látnivalója</p>
+                    <input type="radio" name="q2" value="a"> Coop-os bolt<br>
+                    <input type="radio" name="q2" value="b"> Szabolcs út<br>
+                    <input type="radio" name="q2" value="c"> Földvár<br>
+            
+                    <h2>Kérdés 3:</h2>
+                    <p>Melyik az a két véros amely közt fekszik Nyírkarász</p>
+                    <input type="radio" name="q3" value="a"> Kisvárda-Baktalórántháza<br>
+                    <input type="radio" name="q3" value="b"> Budapest-Nyíregyháza<br>
+                    <input type="radio" name="q3" value="c"> Debrecen-Miskolc<br>
+            
+                    <br>
+                    <input type="button" value="Submit" onclick="checkAnswers()">
+                </form>
+            
+                <p id="results"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
